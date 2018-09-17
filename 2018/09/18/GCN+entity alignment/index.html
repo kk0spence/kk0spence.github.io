@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="Hexo deploy提交需要输入账户密码问题 检查isa.pub是否上传：  1ssh -T git@github.com  传输模式是否改为ssh：  1git remote -v  _config.yml 配置文件中repo改为ssh方式，而不是https  本地查看效果12345hexo g = hexo generatehexo d = hexo deployhexo s = hexo">
+<meta name="description" content="GCN传统的离散卷积 通过计算中心像素点以及相邻像素点的加权和来构成feature map实现空间特征的提取 在Non Euclidean Structure的数据上无法保持平移不变性，即在拓扑图中每个顶点的相邻顶点数目都可能不同，那么当然无法用一个同样尺寸的卷积核来进行卷积运算  提取拓扑图空间特征vertex domain 确定中心vertex的neighbors，receptive fiel">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo+Github配置与问题">
-<meta property="og:url" content="http://yoursite.com/2018/09/06/Hexo+Github配置与问题/index.html">
+<meta property="og:title" content="GCN+entity alignment">
+<meta property="og:url" content="http://yoursite.com/2018/09/18/GCN+entity alignment/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Hexo deploy提交需要输入账户密码问题 检查isa.pub是否上传：  1ssh -T git@github.com  传输模式是否改为ssh：  1git remote -v  _config.yml 配置文件中repo改为ssh方式，而不是https  本地查看效果12345hexo g = hexo generatehexo d = hexo deployhexo s = hexo">
+<meta property="og:description" content="GCN传统的离散卷积 通过计算中心像素点以及相邻像素点的加权和来构成feature map实现空间特征的提取 在Non Euclidean Structure的数据上无法保持平移不变性，即在拓扑图中每个顶点的相邻顶点数目都可能不同，那么当然无法用一个同样尺寸的卷积核来进行卷积运算  提取拓扑图空间特征vertex domain 确定中心vertex的neighbors，receptive fiel">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-09-06T11:37:06.704Z">
+<meta property="og:updated_time" content="2018-09-17T16:42:29.905Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo+Github配置与问题">
-<meta name="twitter:description" content="Hexo deploy提交需要输入账户密码问题 检查isa.pub是否上传：  1ssh -T git@github.com  传输模式是否改为ssh：  1git remote -v  _config.yml 配置文件中repo改为ssh方式，而不是https  本地查看效果12345hexo g = hexo generatehexo d = hexo deployhexo s = hexo">
+<meta name="twitter:title" content="GCN+entity alignment">
+<meta name="twitter:description" content="GCN传统的离散卷积 通过计算中心像素点以及相邻像素点的加权和来构成feature map实现空间特征的提取 在Non Euclidean Structure的数据上无法保持平移不变性，即在拓扑图中每个顶点的相邻顶点数目都可能不同，那么当然无法用一个同样尺寸的卷积核来进行卷积运算  提取拓扑图空间特征vertex domain 确定中心vertex的neighbors，receptive fiel">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/09/06/Hexo+Github配置与问题/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/09/18/GCN+entity alignment/"/>
 
 
 
 
 
-  <title>Hexo+Github配置与问题 | Hexo</title>
+  <title>GCN+entity alignment | Hexo</title>
   
 
 
@@ -232,7 +232,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/06/Hexo+Github配置与问题/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/18/GCN+entity alignment/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -249,7 +249,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hexo+Github配置与问题</h1>
+          <h1 class="post-title" itemprop="name headline">GCN+entity alignment</h1>
         
 
         <div class="post-meta">
@@ -261,8 +261,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-09-06T00:00:00+08:00">
-                2018-09-06
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-09-18T00:00:00+08:00">
+                2018-09-18
               </time>
             
 
@@ -321,24 +321,90 @@
       
 
       
-        <h4 id="Hexo-deploy提交需要输入账户密码问题"><a href="#Hexo-deploy提交需要输入账户密码问题" class="headerlink" title="Hexo deploy提交需要输入账户密码问题"></a>Hexo deploy提交需要输入账户密码问题</h4><ol>
-<li>检查isa.pub是否上传：</li>
+        <h3 id="GCN"><a href="#GCN" class="headerlink" title="GCN"></a>GCN</h3><h4 id="传统的离散卷积"><a href="#传统的离散卷积" class="headerlink" title="传统的离散卷积"></a>传统的离散卷积</h4><ul>
+<li>通过计算中心像素点以及相邻像素点的加权和来构成feature map实现空间特征的提取</li>
+<li>在Non Euclidean Structure的数据上无法保持平移不变性，即在拓扑图中每个顶点的相邻顶点数目都可能不同，那么当然无法用一个同样尺寸的卷积核来进行卷积运算</li>
+</ul>
+<h4 id="提取拓扑图空间特征"><a href="#提取拓扑图空间特征" class="headerlink" title="提取拓扑图空间特征"></a>提取拓扑图空间特征</h4><h5 id="vertex-domain"><a href="#vertex-domain" class="headerlink" title="vertex domain"></a>vertex domain</h5><ul>
+<li>确定中心vertex的neighbors，receptive field</li>
+<li>处理不同数目neighbors的特征</li>
+</ul>
+<h4 id="spectral-domain"><a href="#spectral-domain" class="headerlink" title="spectral domain"></a>spectral domain</h4><ul>
+<li>借助于图的拉普拉斯矩阵的特征值和特征向量来研究图的性质</li>
+<li>GSP（graph signal processing):Fourier Transformation -&gt; graph convolution-&gt; graph convolution network<ul>
+<li>都运用到了图的拉普拉斯矩阵   </li>
+<li>图 G=(V,E)，其Laplacian 矩阵的定义为 L=D-A，其中 L 是Laplacian 矩阵，是顶点的度矩阵（对角矩阵），对角线上元素依次为各个顶点的度， A 是图的邻接矩阵</li>
+</ul>
+</li>
+</ul>
+<p>Symmetric normalized Laplacian<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">L^&#123;sys&#125;=D^&#123;-1/2&#125;LD^&#123;-1/2&#125;</span><br></pre></td></tr></table></figure></p>
+<p><a href="https://www.zhihu.com/question/54504471" target="_blank" rel="noopener">如何理解 Graph Convolutional Network（GCN）？</a></p>
+<h4 id="特征"><a href="#特征" class="headerlink" title="特征"></a>特征</h4><ol>
+<li>节点特征：特征矩阵表示</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">X_&#123;N*D&#125;</span><br></pre></td></tr></table></figure>
+<pre><code>N 表示节点数， D 表示每个节点的特征数
+</code></pre><ol start="2">
+<li>图结构特征：图结构上的信息用邻接矩阵A表示</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">H^&#123;l+1&#125; = f(H^l,A)</span><br><span class="line"></span><br><span class="line">H^0 = X</span><br><span class="line"></span><br><span class="line">f(H^l,A) = Relu(AH^lW^l)</span><br><span class="line"></span><br><span class="line">f(H^l,A) = Relu(\hat&#123;D&#125;^&#123;-1/2&#125;\hat&#123;A&#125;\hat&#123;D&#125;^&#123;-1/2&#125;H^lW^l)</span><br><span class="line"></span><br><span class="line">\hat&#123;A&#125; = A + I</span><br></pre></td></tr></table></figure>
+<p><a href="https://zhuanlan.zhihu.com/p/38612863" target="_blank" rel="noopener">图卷积网络(Graph Convolutional networks, GCN) 简述</a></p>
+<hr>
+<h3 id="MTransE"><a href="#MTransE" class="headerlink" title="MTransE"></a>MTransE</h3><ol>
+<li>tasks<ul>
+<li>Inter-lingual links(ILLs)</li>
+<li>Triple-wise alignment(TWA)</li>
+</ul>
+</li>
+<li>proposed work<ul>
+<li>Knowledge model: TransE</li>
+<li>Alignment model:<ul>
+<li>Distance-based</li>
+<li>Translation Vectors</li>
+<li>Linear Transformations</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="JAPE"><a href="#JAPE" class="headerlink" title="JAPE"></a>JAPE</h3><ol>
+<li><p>problem:</p>
+<ul>
+<li>low coverage</li>
+<li><p>Multi-linguality gap</p>
+<p>KB embedding models learn embeddings based solely on relationship triples: not use attribute triples </p>
+</li>
+</ul>
+</li>
+</ol>
+<h6 id="a-joint-attribute-preserving-embedding-model"><a href="#a-joint-attribute-preserving-embedding-model" class="headerlink" title="a joint attribute-preserving embedding model"></a>a joint attribute-preserving embedding model</h6><ul>
+<li>SE</li>
+<li>AE: captures the correlations of attributes</li>
+</ul>
 <ol start="2">
-<li>传输模式是否改为ssh：</li>
+<li>related work</li>
 </ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote -v</span><br></pre></td></tr></table></figure>
+<ul>
+<li>KR-EAR: learn attribute embeddings in a single KB, fail to model attributes whose values are sparse and heterogneous.</li>
+<li>JE[11]: utilizes TransE to embed different KBs into a unified space</li>
+<li>Wang et al[23]: a graph model</li>
+</ul>
 <ol start="3">
-<li>_config.yml 配置文件中repo改为ssh方式，而不是https</li>
+<li>Proposed work</li>
 </ol>
-<h4 id="本地查看效果"><a href="#本地查看效果" class="headerlink" title="本地查看效果"></a>本地查看效果</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo g = hexo generate</span><br><span class="line">hexo d = hexo deploy</span><br><span class="line">hexo s = hexo server</span><br><span class="line">hexo n = hexo new</span><br><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-<h4 id="新建博客"><a href="#新建博客" class="headerlink" title="新建博客"></a>新建博客</h4><p>在’./source/_posts’    文件夹下</p>
-<h5 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h5><p><a href="http://lijiankun24.com/Mac下Hexo和GitHub-Pages搭建个人博客3/" target="_blank" rel="noopener">Mac下Hexo和GitHub-Pages搭建个人博客(三)</a></p>
-<p><a href="https://github.com/weizhixiaoyi/weizhixiaoyi.github.io/wiki/Mac-Hexo-GitHub博客搭建教程" target="_blank" rel="noopener">Mac Hexo GitHub博客搭建教程</a></p>
-<p><a href="https://jacean.github.io/2016/03/11/git配置ssh后提交仍需要密码/" target="_blank" rel="noopener">git配置ssh后提交仍需要密码</a></p>
-<p><a href="https://xuanwo.org/2015/03/26/hexo-intor/" target="_blank" rel="noopener">史上最详细的Hexo博客搭建图文教程</a></p>
-<p><a href="https://jintongyao.github.io/2014/build-a-blog-by-hexo/" target="_blank" rel="noopener">Hexo搭建个人博客详尽指南</a></p>
+<ul>
+<li>share the same representjation </li>
+<li>SE causes the disorganized distribution of some sparse entities: leverage attribute triplets, aligned entities </li>
+<li>AE: <ul>
+<li>attribute values-&gt; range types: Integer, Double, Datetime and String</li>
+<li>skip gram (given an attribute, predict its correlated attributes)</li>
+</ul>
+</li>
+<li>Entity Similarity<ul>
+<li>cosine distance</li>
+</ul>
+</li>
+</ul>
 
       
     </div>
@@ -363,15 +429,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2018/09/06/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/09/06/hello-world/" rel="prev" title="Hello World">
-                Hello World <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -494,7 +560,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#Hexo-deploy提交需要输入账户密码问题"><span class="nav-number">1.</span> <span class="nav-text">Hexo deploy提交需要输入账户密码问题</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#本地查看效果"><span class="nav-number">2.</span> <span class="nav-text">本地查看效果</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#新建博客"><span class="nav-number">3.</span> <span class="nav-text">新建博客</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#参考"><span class="nav-number">3.1.</span> <span class="nav-text">参考</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#GCN"><span class="nav-number">1.</span> <span class="nav-text">GCN</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#传统的离散卷积"><span class="nav-number">1.1.</span> <span class="nav-text">传统的离散卷积</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#提取拓扑图空间特征"><span class="nav-number">1.2.</span> <span class="nav-text">提取拓扑图空间特征</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#vertex-domain"><span class="nav-number">1.2.1.</span> <span class="nav-text">vertex domain</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#spectral-domain"><span class="nav-number">1.3.</span> <span class="nav-text">spectral domain</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#特征"><span class="nav-number">1.4.</span> <span class="nav-text">特征</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#MTransE"><span class="nav-number">2.</span> <span class="nav-text">MTransE</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#JAPE"><span class="nav-number">3.</span> <span class="nav-text">JAPE</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#a-joint-attribute-preserving-embedding-model"><span class="nav-number">3.0.0.1.</span> <span class="nav-text">a joint attribute-preserving embedding model</span></a></li></ol></li></ol></li></ol></li></ol></div>
             
 
           </div>
