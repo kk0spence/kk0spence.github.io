@@ -344,6 +344,165 @@
 
 
     
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/09/06/Hexo+Github配置与问题/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/09/06/Hexo+Github配置与问题/" itemprop="url">Hexo+Github配置与问题</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-09-06T00:00:00+08:00">
+                2018-09-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Exercise/" itemprop="url" rel="index">
+                    <span itemprop="name">Exercise</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="Hexo-deploy提交需要输入账户密码问题"><a href="#Hexo-deploy提交需要输入账户密码问题" class="headerlink" title="Hexo deploy提交需要输入账户密码问题"></a>Hexo deploy提交需要输入账户密码问题</h4><ol>
+<li>检查isa.pub是否上传：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<ol start="2">
+<li>传输模式是否改为ssh：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote -v</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>_config.yml 配置文件中repo改为ssh方式，而不是https</li>
+</ol>
+<h4 id="本地查看效果"><a href="#本地查看效果" class="headerlink" title="本地查看效果"></a>本地查看效果</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo g = hexo generate</span><br><span class="line">hexo d = hexo deploy</span><br><span class="line">hexo s = hexo server</span><br><span class="line">hexo n = hexo new</span><br><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+<h4 id="新建博客"><a href="#新建博客" class="headerlink" title="新建博客"></a>新建博客</h4><p>在’./source/_posts’    文件夹下</p>
+<h5 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h5><p><a href="http://lijiankun24.com/Mac下Hexo和GitHub-Pages搭建个人博客3/" target="_blank" rel="noopener">Mac下Hexo和GitHub-Pages搭建个人博客(三)</a></p>
+<p><a href="https://github.com/weizhixiaoyi/weizhixiaoyi.github.io/wiki/Mac-Hexo-GitHub博客搭建教程" target="_blank" rel="noopener">Mac Hexo GitHub博客搭建教程</a></p>
+<p><a href="https://jacean.github.io/2016/03/11/git配置ssh后提交仍需要密码/" target="_blank" rel="noopener">git配置ssh后提交仍需要密码</a></p>
+<p><a href="https://xuanwo.org/2015/03/26/hexo-intor/" target="_blank" rel="noopener">史上最详细的Hexo博客搭建图文教程</a></p>
+<p><a href="https://jintongyao.github.io/2014/build-a-blog-by-hexo/" target="_blank" rel="noopener">Hexo搭建个人博客详尽指南</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
   </section>
 
   
@@ -390,12 +549,21 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
             
 
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">categories</span>
+                
+              </div>
             
 
             
